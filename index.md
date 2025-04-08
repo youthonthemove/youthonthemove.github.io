@@ -1,3 +1,3 @@
 ---
-layout: home-bootstrap-fw
+layout: home-bstrp-fw
 ---
