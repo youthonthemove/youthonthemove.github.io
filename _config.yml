@@ -21,9 +21,9 @@
 title: YouthOnTheMove
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  "Le site <a href='/'>YouthOnTheMove</a> est un projet mené par <a href='https://www.inforjeuneswaterloo.be'>l'ASBL Infor Jeunes Waterloo</a> qui est un 
+  Centre d'Information Jeunesse agréé et subventionné par la <a href='http://www.cfwb.be' target='_blank'>Fédération Wallonie-Bruxelles
+  et soutenu par l'Echevinat de la jeunesse de la ville de <a href='https://www.waterloo.be'>Waterloo."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
