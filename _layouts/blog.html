@@ -1,0 +1,95 @@
+---
+layout: full-width
+---
+    {% assign posts = site.posts %}
+  <div class="container mt-5">
+    <div class="header">
+      <div class="container mt-5">
+        <div class="header mb-5">
+          {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+    {%- endif -%}
+    </div>
+    <div class="row" data-masonry='{"percentPosition": true }'>
+      {% if posts.size > 0 %}
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          {% for post in posts %}
+            <!--{% for cat in post.categories %} -->
+              <!--{% if cat !="Job4u" %} --->
+                <div class="col-12 col-md-4 mb-4">
+                  <div class="card h-100">
+                   <!-- {% if post.local_images %}
+                      {% for image in post.local_images %}
+                          <img src="{{ image }}" class="card-img-top img-fluid" alt="image">
+                      {% endfor %}
+                      {% else %}
+                    {% endif %} -->
+                      <div card-body class="p-2">
+                        <h5 class="card-title fw-medium">{{ post.title }}</h5>
+                        <div class="card-header border-0 rounded fw-light">
+                          <span class="meta-label">Publié:&nbsp;</span>
+                          <time class="dt-published fs-6">
+                            {{ post.date | date: "%d/%m/%Y" }}
+                          </time>
+
+                          {%- if page.modified_date -%}
+                            <span class="bullet-divider">•</span>
+                            <span class="meta-label">Modifié:&nbsp;</span>
+                            {%- assign mdate = page.modified_date | date_to_xmlschema %}
+                            <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+                              {{ mdate | date: "%d/%m/%Y" }}
+                            </time>
+                          {%- endif -%}
+
+                          {%- if post.author %}
+                            <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
+                              <span class="meta-label">Par:&nbsp;</span>
+                              {%- for author in post.author %}
+                                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                  <span class="p-author h-card" itemprop="name"> {{ author }}</span></span>
+                                {%- if forloop.last == false %}, {% endif -%}
+                              {% endfor %}
+                            </div>
+                            {%- endif %}
+                          {% if post.categories %}
+                            <span class="meta-label">Catégorie(s):&nbsp;</span>
+                            {% for category in post.categories %}
+                              <span class="p-author h-card">{{ category }}</span>
+                              {% if forloop.last==false %},&nbsp;{% endif %}
+                            {% endfor %}
+                          {% endif %}
+                        </div>
+                        <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                        <div class="d-flex justify-content-end">
+                          <a class="btn btn-outline-secondary btn-sm" href="{{ post.url }}">Lire la suite</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              <!-- {% endif %} --->
+            <!--{% endfor %} -->
+          {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+    
+<div class="home">
+    {% if site.paginate %}
+      <div class="pager">
+        <ul class="pagination">
+        {%- if paginator.previous_page %}
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+          <li><div class="current-page">{{ paginator.page }}</div></li>
+        {%- if paginator.next_page %}
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+        {%- else %}
+          <li><div class="pager-edge">•</div></li>
+        {%- endif %}
+        </ul>
+      </div>
+    {%- endif %}
+
+</div>
