@@ -1,0 +1,12 @@
+- title: "eurodesk"
+  image: assets/images/logos/eurodesk-black.png
+
+- title: "bij"
+  image: assets/images/logos/bij.png
+  icon: "fa-brands fa-mastodon"
+
+- title: "teli"
+  image: assets/images/logos/teli.png
+  icon: "fa-brands fa-facebook-f"
+
+
