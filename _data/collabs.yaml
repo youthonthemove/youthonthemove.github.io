@@ -2,11 +2,13 @@
   image: assets/images/logos/eurodesk-black.png
 
 - title: "bij"
-  image: assets/images/logos/bij.png
+  image: assets/images/logos/bij-banner.jpg
   icon: "fa-brands fa-mastodon"
 
-- title: "teli"
-  image: assets/images/logos/teli.png
-  icon: "fa-brands fa-facebook-f"
+- title: "fwb"
+  image: assets/images/logos/fwb-horizontal.png
+
+- title: "commune"
+  image: assets/images/logos/waterloo-scaled-95.png
 
 
