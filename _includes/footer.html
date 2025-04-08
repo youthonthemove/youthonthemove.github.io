@@ -2,29 +2,22 @@
   <data class="u-url" href="{{ '/' | relative_url }}"></data>
   <div class="container container-fluid">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-3 col-sm-2 mb-4">
-        <div class="d-flex mb-2 justiy-content-center">
-          <img src="assets/images/logos/ijw-carre-transparent.png" class="img-fluid">
-        </div>
+      <div class="col-12 col-md-3 mb-4 justify-content-center align-items-center">
+          <img src="/assets/images/logos/ijw-carre-transparent.png" class="img-fluid">
         <!--<div class="list-group list-group-flush">
           {% for item in site.data.footer_nav %}
             <a class="list-group-item list-group-item-action bg-light " href="{{item.url}}">{{item.title}}</a>
           {% endfor %}
         </div>-->
       </div>
-      <div class="col-12 col-md-9 mb-1">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-6 mb-4">
-            {{ site.description | markdownify }}
-            {% include social.html %}
-          </div>
-          <div class="col-12 col-md-6 mb-4">
-            {{ site.description | markdownify }}
-            {% include social.html %}
-          </div>
+      <div class="col-12 col-md-4 justify-content-center align-items-center">
+        {% include footer-nav.html%}
+      </div>
+      <div class="col-12 col-md-3 mb-1 justify-content-center align-items-center">
+        <div class="d-flex mt-4">
+          {{ site.description | markdownify }}
         </div>
-        <div class="row">
-        </div>
+        {% include social.html %}
       </div>
     </div>
   </div>
