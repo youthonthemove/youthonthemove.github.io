@@ -26,9 +26,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   et soutenu par l'Echevinat de la jeunesse de la ville de <a href='https://www.waterloo.be'>Waterloo</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
+# Coordonnées
+getInTouch:
+  - adress: 
+    street: Rue Théophile Delbar, 18 A - 1410 Waterloo
+    icon: fa-solid fa-house
+  - call: 
+    phone: +32 473 953 806
+    icon: fa-solid fa-phone
+  - opening:
+    hours: Ma-Ve 12-17h
+    icon: fa-solid fa-clock
+    
 # Build settings
 permalink: /:title/
 theme: minima

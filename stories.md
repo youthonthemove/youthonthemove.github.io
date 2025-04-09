@@ -1,7 +1,7 @@
 ---
 title: Témoignages
 layout: stories
-permalink: /histoires
+permalink: /temoignages/
 episodes:
   - data:
      title: "Episode 1"

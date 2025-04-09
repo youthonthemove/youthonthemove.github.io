@@ -15,6 +15,7 @@ a:hover{
 .bg-blue-ij{
   background-color: #12a3fe
 }
+
 .nav-container {
   position: relative;
 }
@@ -31,11 +32,11 @@ a:hover{
   position: fixed;
   top: 0;
   right: -250px; /* Initially hidden off-screen */
-  //width: 250px;
+  #width: 250px;
   height: 100%;
   //background-color: #f0f0f0;
   overflow-y: auto;
-  transition: right 0.3s ease-in-out; /* Smooth animation */
+  transition: right 0.8s ease-in-out; /* Smooth animation */
 
   ul {
     list-style: none;
@@ -44,13 +45,14 @@ a:hover{
 
     li {
       a {
-        display: block;
-        padding: 0.8em;
+        //display: block;
+        //padding: 0.8em;
         text-decoration: none;
-        color: #333;
+        //color: #333;
 
         &:hover {
-          background-color: #ddd;
+          background-color: #12a3fe;
+          color:#fff;
         }
       }
     }
