@@ -49,8 +49,7 @@ title: "${title}"
 date: "${formattedDate}"
 enclosure: "${enclosureUrl}"
 slug: "${slug}"
-permalink: "${permalink}"
-parent: "/"
+permalink: "${slug}"
 published: true
 ---
 ${cleanedDescription}
