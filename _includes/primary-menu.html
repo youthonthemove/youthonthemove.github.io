@@ -1,0 +1,38 @@
+<nav class="site-nav ">
+    <!--<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger">
+      <span class="fa-solid fa-bars"></span>
+    </label>
+    <div class="drawer-container">
+      <div class="drawer">
+        {%- include primary-nav.html paths = page_paths %}
+      </div>
+    </div>
+    <div class="slab d-flex">
+      <div class="item justify-content-between">
+        {%- include primary-nav.html paths = page_paths %}
+      </div>
+    </div> -->
+    <div class="nav-container">
+      <button class="menu-button">&#9776; Menu</button>  
+      <nav class="nav-drawer">
+            <ul class="list-group mt-4">
+            <li>
+                <a class="list-group-item list-group-item-action mb-2 border-O rounded-end rounded-pill" href="{{ "/" | relative_url }}">Home</a>
+            </li>
+            {% for page in site.pages %}
+                {% if page.title %}
+                    <li>
+                        <a class="list-group-item list-group-item-action rounded-end rounded-pill p-end-2 mb-2 border-O" href="{{ page.url | relative_url }}">
+                            {{ page.title }}
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+            {% if site.show_posts %}
+                <li><a href="{{ "/posts/" | relative_url }}">Posts</a></li>
+            {% endif %}
+            </ul>
+      </nav>
+    </div>
+  </nav>

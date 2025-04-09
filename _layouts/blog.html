@@ -18,12 +18,9 @@ layout: full-width
               <!--{% if cat !="Job4u" %} --->
                 <div class="col-12 col-md-4 mb-4">
                   <div class="card h-100">
-                   <!-- {% if post.local_images %}
-                      {% for image in post.local_images %}
-                          <img src="{{ image }}" class="card-img-top img-fluid" alt="image">
-                      {% endfor %}
-                      {% else %}
-                    {% endif %} -->
+                   {% if post.vedette %}
+                          <img src="{{ vedette }}" class="card-img-top img-fluid" alt="image">
+                    {% endif %}
                       <div card-body class="p-2">
                         <h5 class="card-title fw-medium">{{ post.title }}</h5>
                         <div class="card-header border-0 rounded fw-light">
