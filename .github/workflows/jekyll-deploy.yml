@@ -36,7 +36,7 @@ jobs:
         run: bundle exec jekyll build --trace
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@<a specific commit SHA>
         with:
           name: jekyll-site
           path: _site
