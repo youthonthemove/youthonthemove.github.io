@@ -22,9 +22,7 @@ Le **jeune au pair** vit dans une famille d'accueil pour laquelle il s'occupe de
 
 C'est une expérience d'échange culturel qui permet d'apprendre / d'approfondir une langue, d'acquérir de l'autonomie et de partager des moments uniques avec la famille d'accueil.
 
-{% notice  warning %}
 Certaines formalités administratives importantes sont à régler en Belgique: allocations familiales, mutuelle, assurances...
-{% endnotice %}
 
 ### Quelles sont les conditions pour devenir jeune au pair ?
 
