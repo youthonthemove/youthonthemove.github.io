@@ -16,5 +16,5 @@ module Jekyll
     end
   end
 
-  Liquid::Template.register_tag('button', Jekyll::ButtonTag)
+  Liquid::Template.register_tag('btn', Jekyll::ButtonTag)
 end

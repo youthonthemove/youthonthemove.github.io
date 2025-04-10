@@ -4,14 +4,14 @@ type: info
 title: Button Test
 ---
 
-{% button "Test", "/test", "test-style" %}
+{% btn "Test", "/test", "test-style" %}
 
-{% button "Test2", "/test2" %}
+{% btn "Test2", "/test2" %}
 
-{% button "Test3" %}
+{% btn "Test3" %}
 
-{% button "", "", "" %}
+{% btn "", "", "" %}
 
-{% button "  Test with Spaces  ", "  /spaces  ", "  space-style  " %}
+{% btn "  Test with Spaces  ", "  /spaces  ", "  space-style  " %}
 
-{% button "Test with Quotes", "/quotes", "quote\"style" %}
+{% btn "Test with Quotes", "/quotes", "quote\"style" %}
