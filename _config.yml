@@ -28,14 +28,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Coordonnées
+# Pagination
 
-    
+paginate: 3 
+paginate_path: "/blog/page:num" # URL pattern for paginated pages
+
 # Build settings
 permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default.
