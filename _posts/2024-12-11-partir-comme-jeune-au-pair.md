@@ -28,9 +28,9 @@ Certaines formalités administratives importantes sont à régler en Belgique: a
 
 ### Quelles sont les conditions pour devenir jeune au pair ?
 
-{% notice warning %}
+
 Les conditions peuvent varier d'un pays à l'autre.
-{% endnotice %}
+
 
 - Etre âgé entre 17 et 30 ans
 - Avoir un niveau de base dans la langue du pays d'accueil
