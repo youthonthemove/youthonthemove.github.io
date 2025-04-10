@@ -18,13 +18,12 @@ layout: fw
     <div class="row overflow-y-scroll" data-masonry='{"percentPosition": true }'>
      {% for post in posts %}
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {% if post.type == 'story' %}
+        {% if post.type == 'info' %}
                   <div class="col-12 col-md-4 mb-4">
-                    
                     <div class="card h-100">
-                      {% if post.vedette %}
-                      <img src="{{post.vedette}}" class="card-img-top img-fluid">
-                    {% endif %}
+                      {% if post.image %}
+                        <img src="{{ post.image }}" class="card-img-top img-fluid">
+                      {% endif %}
                         <div card-body class="p-2">
                           <div class="card-header border-0 rounded fw-light">
                             <h5 class="card-title fw-medium">{{ post.title }}</h5>
