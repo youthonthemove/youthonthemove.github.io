@@ -52,4 +52,3 @@ Les conditions peuvent varier d'un pays à l'autre.
 
 ### Des questions?
 
-<!--{% button "Contacte-nous!","/contact/",style="outline-dark" %}-->
