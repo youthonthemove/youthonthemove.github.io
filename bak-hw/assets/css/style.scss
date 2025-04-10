@@ -1,0 +1,64 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+a{
+  text-decoration:none;
+}
+a:hover{
+  text-decoration:none;
+}
+.bg-blue-ij{
+  background-color: #12a3fe
+}
+
+.nav-container {
+  position: relative;
+}
+
+.menu-button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0.5em;
+}
+
+.nav-drawer {
+  position: fixed;
+  top: O;
+  right: -250px; /* Initially hidden off-screen */
+  //width: 250px;
+  height: 100%;
+  //background-color: #f0f0f0;
+  overflow-y: auto;
+  transition: right 0.4s ease-in-out; /* Smooth animation */
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      a {
+        //display: block;
+        //padding: 0.8em;
+        text-decoration: none;
+        //color: #333;
+
+        &:hover {
+          background-color: #12a3fe;
+          color:#fff;
+        }
+      }
+    }
+  }
+
+  &.open {
+    right: 0; /* Show the drawer */
+  }
+}
