@@ -21,14 +21,15 @@ draft: false
 Le **jeune au pair** vit dans une famille d'accueil pour laquelle il s'occupe des enfants et exécute des tâches ménagères. En échange de ses prestations, il est logé, nourri et perçoit de l'argent de poche.
 
 C'est une expérience d'échange culturel qui permet d'apprendre / d'approfondir une langue, d'acquérir de l'autonomie et de partager des moments uniques avec la famille d'accueil.
-
+{% notice info %}
 Certaines formalités administratives importantes sont à régler en Belgique: allocations familiales, mutuelle, assurances...
+{% endnotice %}
 
 ### Quelles sont les conditions pour devenir jeune au pair ?
 
-
+{% notice warning %}
 Les conditions peuvent varier d'un pays à l'autre.
-
+{% endnotice %}
 
 - Etre âgé entre 17 et 30 ans
 - Avoir un niveau de base dans la langue du pays d'accueil
