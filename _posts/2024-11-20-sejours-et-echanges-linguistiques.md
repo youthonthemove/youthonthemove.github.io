@@ -11,10 +11,10 @@ categories: ["info", "programmes"]
 author: "Infor Jeunes Waterloo"
 tags: ["sejours linguistiques", "echanges linguistiques"]
 medias:
-  - data: 
-    name: Norme NF EN 14804
-    link: https://www.gard.gouv.fr/contenu/telechargement/8920/53508/file/NFEN14804%20SejoursLinguistiques.pdf
-    icon: fa-solid fa-file-pdf
+    - type: pdf
+      name: Norme NF EN 14804
+      link: https://www.gard.gouv.fr/contenu/telechargement/8920/53508/file/NFEN14804%20SejoursLinguistiques.pdf
+      icon: fa-solid fa-file-pdf
 draft: false
 ---
 L'échange linsquistique se base sur une formule d'hospitalité réciproque avec le bénéfice d'une immersion culturelle et linguistique.  
