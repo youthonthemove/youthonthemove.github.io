@@ -4,7 +4,7 @@ type: story
 title: "Une vie en une année"
 date: 2021-05-27T08:10:32.000Z
 categories: ["brésil","immersion","temoignage","hello-world","yotm"]
-vedette: https://cdn-images-1.medium.com/max/720/1*WW25d9KtDZYdrbKdQa6agA.jpeg
+image: https://cdn-images-1.medium.com/max/720/1*WW25d9KtDZYdrbKdQa6agA.jpeg
 ---
 
 Bom dia ! Je m’appelle Clémence, j’ai 20 ans, je suis étudiante en deuxième année de licence en Langues Etrangères Appliquées aux affaires à Lille et je suis passionnée par les voyages, langues et cultures étrangères. En 2018, juste après l’obtention de mon bac, j ’ai décidé de partir vivre 10 mois dans le sud du Brésil !

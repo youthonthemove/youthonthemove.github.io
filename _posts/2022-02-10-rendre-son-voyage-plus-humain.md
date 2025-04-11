@@ -4,7 +4,7 @@ type: story
 title: "Rendre son voyage plus humain"
 date: 2022-02-10T14:59:16.000Z
 categories: ["tour-du-monde","backpacking","temoignage","hello-world","yotm"]
-vedette: https://cdn-images-1.medium.com/max/1024/1*ay_TZ9KpvOXgK4cp_05MTg.jpeg
+image: https://cdn-images-1.medium.com/max/1024/1*ay_TZ9KpvOXgK4cp_05MTg.jpeg
 ---
 
 Hey ! Salut tout le monde ! Nous, c’est Seb et Estelle, un couple qui a eu cette idée un p’tit peu folle de partir faire un [tour du monde](https://tourdumondedesloulous.com/category/preparer-un-tour-du-monde/) durant 19 mois en 2016–2017. Le voyage est une extraordinaire aventure mais pas seulement pour la beauté des paysages…ce qui nous fait le plus vibrer, c’est l’aventure humaine. Ehh oui, que serait vraiment un voyage si tu ne rencontres pas les autres ?

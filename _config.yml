@@ -35,7 +35,7 @@ pagination:
   per_page: 3             # Number of items per page (default: 10)
   permalink: '/page/:num/' # Permalink structure for pagination pages
                            # :num will be replaced by the page number
-  title: ':title - Page :num of :max' # Optional: Format for the title of paginated pages
+  title: ':title - Page :num / :max' # Optional: Format for the title of paginated pages
                            # :title - original page title
                            # :num - current page number
                            # :max - total number of pages

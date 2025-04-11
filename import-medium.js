@@ -73,7 +73,7 @@ type: story
 title: "${title.replace(/"/g, '\\"')}"
 date: ${pubDate.toISOString()}
 categories: ${JSON.stringify(categories)}
-${firstImage ? `vedette: ${firstImage}` : ''}
+${firstImage ? `image: ${firstImage}` : ''}
 ---`;
 
     const fileContent = `${frontmatter}\n\n${markdownContent}`;

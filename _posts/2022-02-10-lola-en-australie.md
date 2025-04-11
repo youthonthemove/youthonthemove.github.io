@@ -4,7 +4,7 @@ type: story
 title: "Lola en Australie"
 date: 2022-02-10T14:03:18.000Z
 categories: ["temoignage","yotm","hello-world","roadtrip","australie"]
-vedette: https://cdn-images-1.medium.com/max/1024/1*es6a9vYByMxgKS9TxluthQ.jpeg
+image: https://cdn-images-1.medium.com/max/1024/1*es6a9vYByMxgKS9TxluthQ.jpeg
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*es6a9vYByMxgKS9TxluthQ.jpeg)

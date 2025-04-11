@@ -4,7 +4,7 @@ type: story
 title: "D’Israël en Inde, le début d’un long voyage… par Lola"
 date: 2022-01-20T13:27:24.000Z
 categories: ["india","temoignage","yotm","hello-world","backpacking"]
-vedette: https://cdn-images-1.medium.com/max/1024/1*DOH7R4k6rxDvzsM_msOFqg.jpeg
+image: https://cdn-images-1.medium.com/max/1024/1*DOH7R4k6rxDvzsM_msOFqg.jpeg
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*DOH7R4k6rxDvzsM_msOFqg.jpeg)

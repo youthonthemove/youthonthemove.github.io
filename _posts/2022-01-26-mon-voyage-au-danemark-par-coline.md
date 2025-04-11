@@ -4,7 +4,7 @@ type: story
 title: "Mon voyage au Danemark par Coline"
 date: 2022-01-26T14:41:05.000Z
 categories: ["hello-world","workaway","solo-female-travel","yotm","temoignage"]
-vedette: https://cdn-images-1.medium.com/max/1024/1*LwlYfYFqFZ0XCF_PJK1AYg.jpeg
+image: https://cdn-images-1.medium.com/max/1024/1*LwlYfYFqFZ0XCF_PJK1AYg.jpeg
 ---
 
 ![](https://cdn-images-1.medium.com/max/1024/1*LwlYfYFqFZ0XCF_PJK1AYg.jpeg)

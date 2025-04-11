@@ -4,7 +4,7 @@ type: story
 title: "Karen, de backpackeuse à vanlifeuse"
 date: 2022-05-04T14:30:50.000Z
 categories: ["backpacker","vanlife","hello-world","yotm","temoignage"]
-vedette: https://cdn-images-1.medium.com/max/1024/1*mFMSXEWkZYQd7LsAcXCT3w.jpeg
+image: https://cdn-images-1.medium.com/max/1024/1*mFMSXEWkZYQd7LsAcXCT3w.jpeg
 ---
 
 ### Karen, d_e bagpackeuse à vanlifeuse_
