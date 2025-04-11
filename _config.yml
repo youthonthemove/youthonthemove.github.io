@@ -31,7 +31,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Pagination
 
 paginate: 3 
-paginate_path: "/blog/page:num" # URL pattern for paginated pages
+paginate_path: "/blog/page:num/" # URL pattern for paginated pages
 
 # Build settings
 permalink: /:title/
