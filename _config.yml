@@ -30,15 +30,26 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Pagination
 
-paginate: 3 
-paginate_path: "/blog/page:num/" # URL pattern for paginated pages
+pagination:
+  enabled: true             # Enable the pagination generator
+  per_page: 3             # Number of items per page (default: 10)
+  permalink: '/page/:num/' # Permalink structure for pagination pages
+                           # :num will be replaced by the page number
+  title: ':title - Page :num of :max' # Optional: Format for the title of paginated pages
+                           # :title - original page title
+                           # :num - current page number
+                           # :max - total number of pages
+  limit: 0                  # Optional: Limit the total number of pagination pages to generate (0 for all)
+  sort_field: 'date'        # Field to sort items by (default: date)
+  sort_reverse: true        # Reverse the sort order (default: false)
+  collection: 'posts'       # Default collection to paginate if not specified in page front matter
 
 # Build settings
 permalink: /:title/
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
