@@ -1,0 +1,13 @@
+<header class="site-header z-3 container-fluid">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
+    {%- assign page_titles = site.pages | map: 'title' | compact %}
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+      <i class="{{ site.title-icon }}"></i>&nbsp;{{ site.title | escape }}
+    </a>
+    {%- unless page_titles == empty %}
+      {% include primary-menu.html %}
+    {%- endunless %}
+  </div>
+</header>

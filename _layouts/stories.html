@@ -1,0 +1,68 @@
+---
+layout: fw
+---
+<!--{% if site.paginate %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+{% endif %}-->
+{% assign posts = site.posts %}
+
+<div class="home">
+  <div class="container mt-5">
+    <div class="header mt-5 mb-2">
+      {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+{%- endif -%}
+    </div>
+    <div class="row overflow-y-scroll" data-masonry='{"percentPosition": true }'>
+     {% for post in posts %}
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {% if post.type == 'story' %}
+                  <div class="col-12 col-md-4 mb-4">
+                    
+                    <div class="card h-100">
+                      <!--{% if post.vedette %}
+                      <img src="{{post.vedette}}" class="card-img-top img-fluid">
+                    {% endif %} -->
+                        <div card-body class="p-2">
+                          <div class="card-header border-0 rounded fw-light">
+                            <h5 class="card-title fw-medium">{{ post.title }}</h5>
+                            <span class="meta-label">Publié:&nbsp;</span>
+                            <time class="dt-published fs-6">
+                              {{ post.date | date: "%d/%m/%Y" }}
+                            </time>
+
+                            {%- if page.modified_date -%}
+                              <span class="bullet-divider">•</span>
+                              <span class="meta-label">Modifié:&nbsp;</span>
+                              {%- assign mdate = page.modified_date | date_to_xmlschema %}
+                              <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+                                {{ mdate | date: "%d/%m/%Y" }}
+                              </time>
+                            {%- endif -%}
+
+                            {%- if post.author %}
+                              <div class="{% unless page.modified_date %}force-inline {% endunless %}post-authors">
+                                <span class="meta-label">Par:&nbsp;</span>
+                                {%- for author in post.author %}
+                                  <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                                    <span class="p-author h-card" itemprop="name"> {{ author }}</span></span>
+                                  {%- if forloop.last == false %}, {% endif -%}
+                                {% endfor %}
+                              </div>
+                              {%- endif %}
+
+                          </div>
+                          <p class="card-text">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                          <div class="d-flex justify-content-end">
+                            <a class="btn btn-outline-secondary btn-sm" href="{{ post.url }}">Lire la suite</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+        {% endif %}
+      {% endfor%}
+    </div>
+  </div>
+</div>

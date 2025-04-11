@@ -1,0 +1,29 @@
+<nav class="site-nav ">
+    <div class="nav-container">
+      <a  class="menu-button border-0"><i class="fa-solid fa-bars"></i></button>  
+      <nav class="nav-drawer">
+            <ul class="list-group">
+            <li>
+                <a class="list-group-item list-group-item-action mb-1 border-O rounded-start border-2 border-end-0 border-warning" href="{{ "/" | relative_url }}">
+                    <i class="fa-solid fa-home"></i>
+                </a>
+            </li>
+            <li>
+                <a href="/contact/" class=" list-group-item item-group-item-action rounded-start border-2 border-end-0 border-sucess mb-2">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
+            </li>
+            {% for item in site.data.primary_nav %}
+                <li>
+                    <a class="list-group-item list-group-item-action rounded-start border-primary border-2 border-end-0 p-end-2 mb-2 border-O" href="{{ item.url | relative_url }}">
+                            <i class="{{ item.icon }}"></i>
+                    </a>
+                </li>
+            {% endfor %}
+            {% if site.show_posts %}
+                <li><a href="{{ "/posts/" | relative_url }}">Posts</a></li>
+            {% endif %}
+            </ul>
+      </nav>
+    </div>
+  </nav>
