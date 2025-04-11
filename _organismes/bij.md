@@ -1,7 +1,8 @@
 ---
+layout: post
 title: BIJ - Bureau International Jeunesse
 email: 
-image: /images/bij.png
+image: assets/images/orga/bij.png
 description: Fiche descriptive de l'organisme BIJ - Bureau International Jeunesse
 reconnaissance: 
   - type: Organisation de Jeunesse reconnue par la Communauté française

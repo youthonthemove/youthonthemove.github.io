@@ -1,7 +1,8 @@
 ---
+layout:post
 title: BAEF - Belgian American Educational Foundation
 email: johndoe@email.com
-image: /images/baef.jpg
+image: /assets/images/orga/baef.jpg
 description: Fiche descriptive de l'organisme BAEF - Belgian American Educational Foundation
 categories: 
   - name: Etudes

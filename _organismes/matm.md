@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "MATM - Mouvement d'Actions à travers le Monde"
 email: 
-image: "/images/avatar.png"
+image: "/assets/images/org/avatar.png"
 description: Fiche descriptive de l'organisme MATM - Mouvement d'Actions à Travers le Monde
 reconnaissance:
   - type: 

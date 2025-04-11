@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "JAVVA - Volontariat international"
 email: 
-image: "/images/javva.png"
+image: "assets/images/orga/javva.png"
 description: Fiche descriptive de l'organisme JAVVA
 reconnaissance:
   - type: Organisation de Jeunesse reconnue par la Communauté française

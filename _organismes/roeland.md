@@ -1,7 +1,8 @@
 ---
+layout: post
 title: Roeland vzw
 email: 
-image: /images/roeland.png
+image: assets/images/orga/roeland.png
 description: Fiche descriptive de l'organisme Roeland
 reconnaissance: 
   - type: Organisation de Jeunesse reconnue par la Communauté Flamande

@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Information Planet"
 email: 
-image: "/images/information-planet.png"
+image: "assets/images/orga/information-planet.png"
 description: "Fiche descriptive de Information Planet"
 reconnaissance:
   - type: 

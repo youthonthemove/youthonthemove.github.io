@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "SCI - Projets internationaux"
 email: 
-image: "/images/sci.png"
+image: "/assets/images/orga/sci.png"
 description: Fiche descriptive de l'organisme MATM - Mouvement d'actions à travers le monde
 reconnaissance:
   - type: Organisation de Jeunesse reconnue par la Fédération Wallonie-Bruxelles

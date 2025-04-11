@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Move & Study"
 email: 
-image: "images/move-study.png"
+image: "/assets/images/orga/move-study.png"
 description: "Fiche descriptive de Move & Study"
 reconnaissance:
   - type: 

@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Les compagnons bâtisseurs"
 email: 
-image: "/images/compagnons-batisseurs.webp"
+image: "/assets/images/orga/compagnons-batisseurs.webp"
 description: Fiche descriptive de l'organisme Compagnons bâtisseurs
 reconnaissance:
   - type: Organisation de Jeunesse reconnue par la Communauté française

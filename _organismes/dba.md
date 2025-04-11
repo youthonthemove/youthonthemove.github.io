@@ -1,7 +1,8 @@
 ---
+layout: post
 title: Défi Belgique Afrique
 email: 
-image: /images/dba.png
+image: /assets/images/orga/dba.png
 description: Fiche descriptive de l'organisme Défin Belgique Afrique
 reconnaissance: 
   - type: Organisation de Jeunesse reconnue par la Communauté française

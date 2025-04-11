@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Langues vivantes"
 email: 
-image: "images/langues-vivantes.png"
+image: "assets/images/orga/lt.png"
 description: "Fiche descriptive de Langues vivantes"
 reconnaissance:
   - type: 

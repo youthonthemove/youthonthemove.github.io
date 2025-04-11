@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Languages and travel"
 email: 
 image: "images/lt.png"

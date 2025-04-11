@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "CERAN"
 email: 
-image: "/images/avatar.png"
+image: "/assets/images/orga/avatar.png"
 description: "Fiche descriptive de CERAN"
 reconnaissance:
   - type: 

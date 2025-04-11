@@ -1,7 +1,8 @@
 ---
+layout:post
 title: "SVI - Service Volontaire International"
 email: 
-image: "/images/svi.webp"
+image: "/assets/images/orga/svi.webp"
 description: Fiche descriptive de l'organisme SVI - Service Volontaire International
 reconnaissance:
   - type: Organisation de Jeunesse reconnue par la Communauté française

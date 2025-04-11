@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Club Teli"
 email: 
-image: "/images/teli-1.png"
+image: "assets/images/orga/teli-1.png"
 description: Fiche descriptive de Club Teli
 reconnaissance:
   - type: 

@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "EF - Education First"
 email: 
-image: "/images/ef.png"
+image: "/assets/images/orga/ef.png"
 description: "Fiche descriptive de EF - Education First"
 reconnaissance:
   - type: 

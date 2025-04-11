@@ -1,7 +1,8 @@
 ---
+layout:post
 title: "WEP - World Education Program"
 email: 
-image: "images/wep.png"
+image: "/assets/images/orga/wep.png"
 description: "Fiche descriptive de WEP"
 reconnaissance:
   - type: 

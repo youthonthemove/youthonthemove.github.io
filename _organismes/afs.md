@@ -1,7 +1,8 @@
 ---
+laoyout: post
 title: AFS - Programmes interculturels
 email: 
-image: /images/afs.png
+image: /assets/images/orga/afs.png
 description: Fiche descriptive de l'organisme AFS - Echanges interculturels
 reconnaissance: 
   - type: Organisation de Jeunesse reconnue par la Communauté française

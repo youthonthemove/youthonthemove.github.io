@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Rotary club Braine-l'Alleud"
 email: 
-image: "/images/rotary.png"
+image: "assets/images/orga/rotary.png"
 description: "Fiche descriptive du Rotary club de Braine-l'Alleud"
 reconnaissance:
   - type: Organisation de jeunesse reconnue par la Fédération wallonie-Bruxelles

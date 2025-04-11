@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Languages and travel"
 email: 
-image: "images/lt.png"
+image: "assets/images/orga/langues-vivantes.png"
 description: "Fiche descriptive de Languages and travel"
 reconnaissance:
   - type: 

@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Study Experience"
 email: 
-image: "images/study-experience.png"
+image: "assets/images/orga/study-experience.png"
 description: "Fiche descriptive de Study Experience"
 reconnaissance:
   - type: 

@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "ESL"
 email: 
-image: "/images/esl.png"
+image: "/assets/images/orga/esl.png"
 description: "Fiche descriptive de ESL"
 reconnaissance:
   - type: 

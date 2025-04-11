@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "YFU - Youth For Understanding"
 email: 
-image: "/images/yfu.png"
+image: "assets/images/orga/yfu.png"
 description: Fiche descriptive de l'organisme SVI - Service Volontaire International
 reconnaissance:
   - type: Organisation de Jeunesse reconnue par la Communauté française

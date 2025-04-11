@@ -1,7 +1,8 @@
 ---
+layout: post
 title: "Quinoa"
 email: 
-image: "/images/quinoa.png"
+image: "assets/images/orga/quinoa.png"
 description: Fiche descriptive de l'organisme Quinoa
 reconnaissance:
   - type: 
