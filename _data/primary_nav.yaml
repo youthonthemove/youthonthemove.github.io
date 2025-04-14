@@ -1,5 +1,9 @@
 - title: "Blog"
   url: "/blog/"
   icon: "fa-solid fa-blog"
+- title: "Organismes"
+  url: "/organismes/"
+  icon: "fa-solid fa-building-ngo"
+
 
 
