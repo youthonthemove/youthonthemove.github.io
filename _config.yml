@@ -44,6 +44,12 @@ pagination:
   sort_reverse: true        # Reverse the sort order (default: false)
   collection: 'posts'       # Default collection to paginate if not specified in page front matter
 
+
+#Collections
+Collections:
+  organismes:
+    output: true
+
 # Build settings
 permalink: /:title/
 theme: minima
