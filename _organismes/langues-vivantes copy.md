@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Languages and travel"
 email: 
 image: "assets/images/orga/langues-vivantes.png"

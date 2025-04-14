@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Rotary club Braine-l'Alleud"
 email: 
 image: "assets/images/orga/rotary.png"

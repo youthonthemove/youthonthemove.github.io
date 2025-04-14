@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: orga
 title: "WEP - World Education Program"
 email: 
 image: "/assets/images/orga/wep.png"

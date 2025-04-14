@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "SCI - Projets internationaux"
 email: 
 image: "/assets/images/orga/sci.png"

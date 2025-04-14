@@ -5,9 +5,12 @@ permalink: /blog/
 pagination:
   enabled: true
   per_page: 4
-  permalink: /:page/:num
+  permalink: /blog/:page/:num
 ---
 <h1 class="page-heading">{{page.title}}</h1>
+{% if paginator.total_pages > 1 %}
+  <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
+{% endif %}
 <div class="row align-items-start overflow-y-scroll"data-masonry='{"percentPosition": true }'>
     {% for post in paginator.posts %}
         <div class="col-12 col-sm-6 mb-2">
@@ -31,10 +34,12 @@ pagination:
         <ul class="pagination justify-content-end">
         <li class="page-item disabled">
             {% if paginator.previous_page %}
-                <a  class="page-link" href="{{ paginator.previous_page_path | relative_url }}" class="previous">Previous</a>
+                <a  class="page-link" href="{{ paginator.previous_page_path | relative_url }}" class="previous">
+                    <i class="fa-solid fa-arrow-left">&nbsp; Précédent</i>
+                </a>
             {% endif %}  
         </li>
-        {% for page in (1..paginator.total_pages) %}
+        <!--{% for page in (1..paginator.total_pages) %}
             <li class="page-item">
                 {% if page == paginator.page %}
                 <span class="current">{{ page }}</span>
@@ -45,10 +50,12 @@ pagination:
             {% endif %}
             </li>
             
-        {% endfor %} 
+        {% endfor %}  -->
         <li class="page-item">
             {% if paginator.next_page %}
-                <a href="{{ paginator.next_page_path | relative_url }}" class="next">Next</a>
+                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" class="next">
+                    <i class="fa-solid fa-arow-right">&nbsp; Suivant</i>
+                </a>
             {% endif %}
         </li>
         </ul>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Les compagnons bâtisseurs"
 email: 
 image: "/assets/images/orga/compagnons-batisseurs.webp"

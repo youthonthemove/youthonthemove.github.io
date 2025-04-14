@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "EF - Education First"
 email: 
 image: "/assets/images/orga/ef.png"

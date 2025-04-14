@@ -1,5 +1,5 @@
 ---
-laoyout: post
+laoyout: orga
 title: AFS - Programmes interculturels
 email: 
 image: /assets/images/orga/afs.png

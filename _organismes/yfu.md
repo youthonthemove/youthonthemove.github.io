@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "YFU - Youth For Understanding"
 email: 
 image: "assets/images/orga/yfu.png"

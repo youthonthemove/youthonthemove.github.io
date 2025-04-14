@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Club Teli"
 email: 
 image: "assets/images/orga/teli-1.png"

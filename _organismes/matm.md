@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "MATM - Mouvement d'Actions à travers le Monde"
 email: 
 image: "/assets/images/org/avatar.png"

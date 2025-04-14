@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: Défi Belgique Afrique
 email: 
 image: /assets/images/orga/dba.png

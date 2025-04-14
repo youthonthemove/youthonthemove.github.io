@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: Roeland vzw
 email: 
 image: assets/images/orga/roeland.png

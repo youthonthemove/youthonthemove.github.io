@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Study Experience"
 email: 
 image: "assets/images/orga/study-experience.png"

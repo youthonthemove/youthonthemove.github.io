@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Quinoa"
 email: 
 image: "assets/images/orga/quinoa.png"

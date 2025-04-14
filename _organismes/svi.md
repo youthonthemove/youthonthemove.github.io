@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: orga
 title: "SVI - Service Volontaire International"
 email: 
 image: "/assets/images/orga/svi.webp"

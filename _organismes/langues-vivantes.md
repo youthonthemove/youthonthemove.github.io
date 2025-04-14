@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Languages and travel"
 email: 
 image: "images/lt.png"

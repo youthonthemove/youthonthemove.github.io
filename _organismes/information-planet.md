@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Information Planet"
 email: 
 image: "assets/images/orga/information-planet.png"

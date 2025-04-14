@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "Move & Study"
 email: 
 image: "/assets/images/orga/move-study.png"

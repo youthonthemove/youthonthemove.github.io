@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: orga
 title: "JAVVA - Volontariat international"
 email: 
 image: "assets/images/orga/javva.png"

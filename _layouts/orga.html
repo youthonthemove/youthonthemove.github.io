@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<div class="card h-100">
+    {% if page.image %}
+        <img src="{{page.image}}" class="img-fluid card-img-top">
+    {% endif %}
+    <div card-body class="p-2">
+        {{ content }}
+    </div>
+    {% if page.social %}
+        <div class="d-flex flex-row-reverse">
+            {% for item in page.social %}
+                <div class="p-2">
+                    <a class="btn btn-outline-dark"href="{{ item.link }}" target="_blank">
+                        <i class="item.icon"></i>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>
