@@ -2,7 +2,7 @@
 layout: orga
 title: "Rotary club Braine-l'Alleud"
 email: 
-image: "assets/images/orga/rotary.png"
+image: "/assets/images/orga/rotary.png"
 description: "Fiche descriptive du Rotary club de Braine-l'Alleud"
 reconnaissance:
   - type: Organisation de jeunesse reconnue par la Fédération wallonie-Bruxelles
@@ -10,7 +10,7 @@ categories:
   - name: Echanges interculturels
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: https://braine-lalleud-1815.rotary2150.org/fr/?ce=1 
   - name: facebook
     icon: fa-brands fa-facebook

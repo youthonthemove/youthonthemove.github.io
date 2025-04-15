@@ -10,7 +10,7 @@ categories:
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: https://www.ef.be/fr/
 ---
 EF est un organisme de séjours linguistiques à l’étranger (50 destinations, 10 langues) qui favorise l’éducation à travers les voyages, la mobilité internationale, l’apprentissage des langues et la découverte de nouvelles cultures.

@@ -1,32 +1,27 @@
 ---
-layout: base
-title: organismes
-permalink: organismes
+layout: fw
+title: Organismes
+permalink: /organismes/
 collection: organismes
-pagination:
-  enabled: true
-  per_page: 5
-  permalink: /organismes/:page/:num
+pagination: 
+  enabled: false
 ---
 <h1 class="page-heading">{{page.title}}</h1>
 {% if paginator.total_pages > 1 %}
   <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
 {% endif %}
 <div class="row align-items-start overflow-y-scroll"data-masonry='{"percentPosition": true }'>
-    {% for post in paginator.posts %}
+    {% for organisme in site.organismes %}
         <div class="col-12 col-sm-6 mb-2">
-            <div class="card border-O">
-                <div class="bg-info-subtle">
-                    <img src="{{post.image}}" class="card-img-top img-fluid">
-                </div>
-                <div class="card-header border-0 bg-light mt-0 mb-2">
-                    <h5 class="heading">{{ post.title }}</h5>
-                    <p><small>Publié le &nbsp;{{ post.date | date: "%d/%m/%Y" }}</small></p>
-                </div>
-                <div class="d-flex justify-content-end mb-2 p-2">
-                    <a class="btn btn-outline-secondary btn-sm" href="{{ post.url }}">Lire la suite</a>
-                </div>
-            </div>
+            <a href="{{ organisme.url }}">
+                 <div class="card border-O">
+                        {% if organisme.image %}
+                            <img src="{{organisme.image}}" class="card-img-top img-fluid p-2">
+                        {% else %}
+                            <h1 class="display p-2">{{ organisme.title }}</h1>
+                        {% endif %}
+                 </div>
+            </a>
         </div>
     {% endfor %}
 </div>
@@ -36,11 +31,11 @@ pagination:
         <li class="page-item disabled">
             {% if paginator.previous_page %}
                 <a  class="page-link" href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-                    <i class="fa-solid fa-arrow-left">&nbsp; Précédent</i>
+                    <i class="fa-solid fa-arrow-left"></i>
                 </a>
             {% endif %}  
         </li>
-        <!--{% for page in (1..paginator.total_pages) %}
+        {% for page in (1..paginator.total_pages) %}
             <li class="page-item">
                 {% if page == paginator.page %}
                 <span class="current">{{ page }}</span>
@@ -51,11 +46,11 @@ pagination:
             {% endif %}
             </li>
             
-        {% endfor %}  -->
+        {% endfor %} 
         <li class="page-item">
             {% if paginator.next_page %}
                 <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" class="next">
-                    <i class="fa-solid fa-arow-right">&nbsp; Suivant</i>
+                    <i class="fa-solid fa-arrow-right"></i>
                 </a>
             {% endif %}
         </li>

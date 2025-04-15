@@ -11,7 +11,7 @@ categories:
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: https://scibelgium.be 
 ---
 Le SCI-Projets Internationaux ASBL est une association qui propose des projets de volontariat en Belgique et à l’étranger, des formations, des animations en milieu scolaire ou associatif et des espaces de mobilisation et d’actions collectives. 

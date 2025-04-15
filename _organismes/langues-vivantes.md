@@ -1,23 +1,23 @@
 ---
 layout: orga
-title: "Languages and travel"
+title: "Langues vivantes"
 email: 
-image: "images/lt.png"
-description: "Fiche descriptive de Languages and travel"
+image: "/assets/images/orga/langues-vivantes.png"
+description: "Fiche descriptive de Langues vivantes"
 reconnaissance:
   - type: 
 categories: 
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
-    link: https://www.langtra.be
+    icon: "fa-solid fa-arrow-up-right-from-square"
+    link: https://languesvivantes.com/fr
 ---
-Languages & Travel est votre boutique de séjours linguistiques.
+LANGUES VIVANTES est spécialisé dans l’organisation de programmes scolaires à l’étranger et de séjours linguistiques depuis 30 ans.
 
-Notre slogan : « Languages & Travel, we care » veut dire que nous portons une attention particulière à vos souhaits et tenons compte de votre profil pour vous conseiller au mieux l’école de langues ou le séjour qui vous convient le mieux. La qualité prime !
+Nous proposons un large éventail de séjours dans de nombreuses destinations (Irlande, Angleterre, États-Unis, Canada, Pays-Bas, Belgique, Allemagne, Espagne…) : des programmes scolaires en High School d’un mois à une année scolaire, compatibles avec le programme EXPÉDIS et des séjours linguistiques pour tous les niveaux, tous les âges et toutes les périodes de l’année au meilleur rapport qualité/prix.
 
-Qu’il s’agisse d’un cours de courte durée, d’une année après la rhéto, d’un job étudiant à l’étranger, d’un séjour à thème ou d’un stage en entreprise, Languages & Travel a ce qu’il vous faut.
+Nos tarifs sont clairs et sans surprise et comprennent les cours, le logement et les repas. Nous sommes un opérateur agréé pour les Bourses Plan Langues du Forem depuis la création de ces bourses en 2006.
 
-Conseils, devis ou rendez-vous en visioconférence sur simple demande.
-{% outube b-fWtHp4Edo %}
+Nous vous offrons un conseil, un suivi et un service personnalisés.
+{% youtube NPFDzyxlxz4 %}

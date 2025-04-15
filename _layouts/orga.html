@@ -3,7 +3,7 @@ layout: base
 ---
 <div class="card h-100">
     {% if page.image %}
-        <img src="{{page.image}}" class="img-fluid card-img-top">
+        <img src="{{page.image}}" class="img-fluid card-img-top p-2">
     {% endif %}
     <div card-body class="p-2">
         {{ content }}
@@ -12,8 +12,8 @@ layout: base
         <div class="d-flex flex-row-reverse">
             {% for item in page.social %}
                 <div class="p-2">
-                    <a class="btn btn-outline-dark"href="{{ item.link }}" target="_blank">
-                        <i class="item.icon"></i>
+                    <a class="btn btn-dark"href="{{ item.link }}" target="_blank">
+                        <i class="{{item.icon}}"></i>
                     </a>
                 </div>
             {% endfor %}

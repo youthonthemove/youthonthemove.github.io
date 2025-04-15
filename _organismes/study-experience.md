@@ -2,7 +2,7 @@
 layout: orga
 title: "Study Experience"
 email: 
-image: "assets/images/orga/study-experience.png"
+image: "/assets/images/orga/study-experience.png"
 description: "Fiche descriptive de Study Experience"
 reconnaissance:
   - type: 
@@ -10,7 +10,7 @@ categories:
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: https://www.studyexperience.be/
 ---
 Study Experience est un cabinet de conseil en études supérieures à l’étranger. Notre vocation : promouvoir les études à l’étranger et d’aider les étudiants à concrétiser leur projet. Nos conseillers spécialisés ont eux-mêmes tous étudié à l’étranger et sont formés pour vous aider à faire le bon choix. Ils vous accompagneront dans toutes les étapes lorsque vous préparez un projet d’études à l’international : depuis l’orientation, jusqu’au départ, en passant par le montage de votre dossier académique.

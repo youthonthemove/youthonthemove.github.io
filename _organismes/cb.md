@@ -10,7 +10,7 @@ categories:
   - name: Chantiers internationaux
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: http://www.compagnonsbatisseurs.be/
 ---
 Les Compagnons Bâtisseurs c‘est une organisation qui propose aux jeunes des projets de volontariat, dès 15 ans.

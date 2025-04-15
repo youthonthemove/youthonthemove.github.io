@@ -2,7 +2,7 @@
 layout: orga
 title: Roeland vzw
 email: 
-image: assets/images/orga/roeland.png
+image: /assets/images/orga/roeland.png
 description: Fiche descriptive de l'organisme Roeland
 reconnaissance: 
   - type: Organisation de Jeunesse reconnue par la Communauté Flamande
@@ -12,7 +12,7 @@ categories:
   - name: Visite de villes
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: https://baef.be/fellowships-for-belgians/hub.com
 ---
 Depuis plus de 50 ans, Roeland organise des séjours linguistiques en immersion en français, anglais et néerlandais pour les jeunes de 7 à 23 ans. Durant l'année, Roeland organise pour les écoles des visites guidées en français à Lille, Namur, Liège et Bruxelles et en néerlandais à Gand.

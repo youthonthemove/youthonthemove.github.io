@@ -10,7 +10,7 @@ categories:
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: http://www.esl.be/
 ---
 ESL est un leader mondial dans les programmes d’études à l’étranger.

@@ -10,7 +10,7 @@ categories:
   - name: Echanges intercultuels
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: https://ongdba.org/ 
 ---
 Depuis 35 ans, Défi Belgique Afrique (DBA) se donne deux objectifs pour construire un monde plus solidaire.

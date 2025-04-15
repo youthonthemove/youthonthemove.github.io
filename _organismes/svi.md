@@ -5,12 +5,12 @@ email:
 image: "/assets/images/orga/svi.webp"
 description: Fiche descriptive de l'organisme SVI - Service Volontaire International
 reconnaissance:
-  - type: Organisation de Jeunesse reconnue par la Communauté française
+  - type: 
 categories: 
   - name: Volontariat international
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: https://www.servicevolontaire.org/
 ---
 SVI Service Volontaire International : Tous les ans, nous envoyons plus de 900 jeunes, qui partent réaliser des projets de volontariat dans le monde entier.Il s’agit de résidents de Belgique, France, Luxembourg, Suisse et Canada.

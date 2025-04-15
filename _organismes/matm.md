@@ -2,7 +2,7 @@
 layout: orga
 title: "MATM - Mouvement d'Actions à travers le Monde"
 email: 
-image: "/assets/images/org/avatar.png"
+image: 
 description: Fiche descriptive de l'organisme MATM - Mouvement d'Actions à Travers le Monde
 reconnaissance:
   - type: 
@@ -10,7 +10,7 @@ categories:
   - name: Volontariat international
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: http://www.matm-belgique.org/
 ---
 MATM est une asbl de solidarité internationale qui promeut le volontariat en Amérique Latine et aux Iles Canaries.

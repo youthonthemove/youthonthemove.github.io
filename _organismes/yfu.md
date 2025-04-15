@@ -2,7 +2,7 @@
 layout: orga
 title: "YFU - Youth For Understanding"
 email: 
-image: "assets/images/orga/yfu.png"
+image: "/assets/images/orga/yfu.png"
 description: Fiche descriptive de l'organisme SVI - Service Volontaire International
 reconnaissance:
   - type: Organisation de Jeunesse reconnue par la Communauté française
@@ -13,7 +13,7 @@ categories:
   - name: Volontariat international
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: https://www.yfu-belgique.be
 ---
 YFU Bruxelles-Wallonie asbl est une Organisation de Jeunesse spécialisée dans les Programmes d’Echanges Interculturels depuis plus de 70 ans.

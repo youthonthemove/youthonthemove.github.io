@@ -16,7 +16,7 @@
             {% for item in site.data.primary_nav %}
                 <li>
                     <a class="list-group-item list-group-item-action rounded-start border-primary border-2 border-end-0 mb-1 border-O" href="{{ item.url | relative_url }}">
-                            item.title {{% if item.icon %}}&nbsp;<i class="{{ item.icon }}"></i>{{% endif %}}
+                            {{ item.title }} {{% if item.icon %}}&nbsp;<i class="{{ item.icon }}"></i>{{% endif %}}
                     </a>
                 </li>
             {% endfor %}

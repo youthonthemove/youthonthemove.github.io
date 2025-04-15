@@ -10,7 +10,7 @@ categories:
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: https://move-and-study.com/
 ---
 Move & Study est une agence de séjours à l’étranger qui a vu le jour à Paris en 2008, et à Bruxelles en 2018. Chaque membre de notre équipe est expérimenté et passionné par les langues, les cultures et les voyages. Nous sommes convaincus des bienfaits d’un séjour à l’étranger, tant sur le point linguistique que personnel, l’ayant nous-même vécu.

@@ -1,5 +1,5 @@
 ---
-laoyout: orga
+layout: orga
 title: AFS - Programmes interculturels
 email: 
 image: /assets/images/orga/afs.png
@@ -10,7 +10,7 @@ categories:
   - name: Echanges intercultuels
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: https://www.afsbelgique.be/
 ---
 AFS Programmes Interculturels est un organisme qui propose des séjours d’immersion culturelle. Nous avons plusieurs programmes tels que des programmes scolaires, supérieurs, de volontariat ou d’été dans plus de 50 destinations.

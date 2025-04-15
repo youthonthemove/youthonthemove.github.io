@@ -2,7 +2,7 @@
 layout: orga
 title: "Quinoa"
 email: 
-image: "assets/images/orga/quinoa.png"
+image: "/assets/images/orga/quinoa.png"
 description: Fiche descriptive de l'organisme Quinoa
 reconnaissance:
   - type: 
@@ -10,7 +10,7 @@ categories:
   - name: 
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon:  "fa-solid fa-arrow-up-right-from-square"
     link: http://www.quinoa.be/
 ---
 Quinoa est une OJ-ONG d’éducation à la citoyenneté mondiale et solidaire qui vise à sensibiliser aux réalités socioculturelles, politiques et économiques du monde contemporain. Son objectif est d’encourager de nouveaux comportements à l’égard de l’autre et de favoriser l’engagement en faveur d’un monde responsable et solidaire.

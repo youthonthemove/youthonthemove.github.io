@@ -2,7 +2,7 @@
 layout: orga
 title: "Information Planet"
 email: 
-image: "assets/images/orga/information-planet.png"
+image: "/assets/images/orga/information-planet.png"
 description: "Fiche descriptive de Information Planet"
 reconnaissance:
   - type: 
@@ -10,7 +10,7 @@ categories:
   - name: Séjours linguistiques
 social:
   - name: Internet
-    icon: fa-solid fa-globe
+    icon: "fa-solid fa-arrow-up-right-from-square"
     link: https://www.informationplanet.be/ 
 ---
 Depuis 20 ans, Information Planet se met au service des étudiants pour leur organiser un séjour linguistique qui leur correspond, pour vivre une expérience exceptionnelle à l’étranger.
