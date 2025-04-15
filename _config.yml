@@ -42,11 +42,6 @@ pagination:
   limit: 0                  # Optional: Limit the total number of pagination pages to generate (0 for all)
   sort_field: 'date'        # Field to sort items by (default: date)
   sort_reverse: true        # Reverse the sort order (default: false)
-  collections: 
-     organismes:
-       per_page: 5
-       permalink: '/organismes/page/:num'
-       title: ':title - Page: num'
 
 #Collections
 collections:
