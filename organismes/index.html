@@ -9,7 +9,7 @@ permalink: /organismes/
 {% endif %}
 <div class="row align-items-start overflow-y-scroll"data-masonry='{"percentPosition": true }'>
     {% for organisme in site.organismes %}
-        <div class="col-12 col-sm-6 mb-2">
+        <div class="col-12 col-sm-6 mb-2 isotope">
             <a href="{{ organisme.url }}">
                  <div class="card border-O">
                         {% if organisme.image %}

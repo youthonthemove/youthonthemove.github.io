@@ -13,7 +13,7 @@ pagination:
 {% endif %}
 <div class="row align-items-start overflow-y-scroll"data-masonry='{"percentPosition": true }'>
     {% for post in paginator.posts %}
-        <div class="col-12 col-sm-6 mb-2">
+        <div class="col-12 col-sm-6 mb-2 isotope">
             <div class="card border-O">
                 <div class="bg-info-subtle">
                     <img src="{{post.image}}" class="card-img-top img-fluid">
