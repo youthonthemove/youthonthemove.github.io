@@ -4,11 +4,14 @@
 <script src="{{ '/assets/js/isotope.pkgd.min.js' | relative_url }}"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const grid = document.querySelector('.row');
+    const grid = document.querySelector('.row-isotope');
     if (grid) {
       const iso = new Isotope(grid, {
-        itemSelector: '.isotope',
-        layoutMode: 'masonry'
+        itemSelector: '.col-isotope',
+        layoutMode: 'masonry', 
+        masonry: {
+          percentPosition: true
+        }
         // Autres options de configuration
       });
     }

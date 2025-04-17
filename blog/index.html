@@ -5,15 +5,15 @@ permalink: /blog/
 pagination:
   enabled: true
   per_page: 4
-  permalink: /blog/:page/:num
+  permalink: /blog/page/:num
 ---
 <h1 class="page-heading">{{page.title}}</h1>
 {% if paginator.total_pages > 1 %}
   <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
 {% endif %}
-<div class="row align-items-start overflow-y-scroll"data-masonry='{"percentPosition": true }'>
+<div class="row align-items-start overflow-y-scroll row-isotope">
     {% for post in paginator.posts %}
-        <div class="col-12 col-sm-6 mb-2 isotope">
+        <div class="col-12 col-sm-6 mb-2 col-isotope">
             <div class="card border-O">
                 <div class="bg-info-subtle">
                     <img src="{{post.image}}" class="card-img-top img-fluid">
