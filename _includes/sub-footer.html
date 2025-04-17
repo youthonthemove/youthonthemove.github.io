@@ -1,3 +1,17 @@
 {% comment %}
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  <script>
+    // Votre code JavaScript pour initialiser Masonry ici
+    document.addEventListener('DOMContentLoaded', function() {
+      var elem = document.querySelector('.grid'); // Remplacez '.grid' par le sélecteur de votre conteneur Masonry
+      if (elem) {
+        var msnry = new Masonry(elem, {
+          // options
+          itemSelector: '.row', // Remplacez '.grid-item' par le sélecteur de vos éléments Masonry
+          columnWidth: '', // Optionnel : pour une largeur de colonne dynamique
+          percentPosition: true
+        });
+      }
+    });
 {% endcomment %}
