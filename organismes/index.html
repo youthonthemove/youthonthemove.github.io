@@ -7,11 +7,11 @@ permalink: /organismes/
 {% if paginator.total_pages > 1 %}
   <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
 {% endif %}
-<div class="row align-items-start overflow-y-scroll row-isotope">
+<div class="row align-items-start">
     {% for organisme in site.organismes %}
-        <div class="col-12 col-sm-6 mb-2 col-isotope">
+        <div class="col-12 col-sm-6 mb-2 masonry-item">
             <a href="{{ organisme.url }}">
-                 <div class="card border-O">
+                 <div class="card h-100">
                         {% if organisme.image %}
                             <img src="{{organisme.image}}" class="card-img-top img-fluid p-2">
                         {% else %}

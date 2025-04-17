@@ -1,20 +1,20 @@
-{% comment %}
 <script src="{{ '/assets/js/menu-button.js'| relative_url }}"></script>
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/isotope.pkgd.min.js' | relative_url }}"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const grid = document.querySelector('.row-isotope');
-    if (grid) {
-      const iso = new Isotope(grid, {
-        itemSelector: '.col-isotope',
-        layoutMode: 'masonry', 
-        masonry: {
-          percentPosition: true
-        }
-        // Autres options de configuration
-      });
+    const gridElem = document.querySelector('.row');
+    if (gridElem) {
+        imagesLoaded(gridElem, function() {
+            const iso = new Isotope(gridElem, {
+                itemSelector: '.masonry-item',
+                layoutMode: 'masonry',
+                masonry: {
+                    percentPosition: true
+                }
+            });
+        });
     }
-  });
+});
 </script>
-{% endcomment %}
+<script src="{{ '/assets/js/imagesloaded.pkgd.min.js' | relative_url}}"

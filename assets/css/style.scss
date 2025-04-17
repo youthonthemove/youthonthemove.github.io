@@ -5,7 +5,11 @@
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
-
+  
+.masonry-item {
+    margin-bottom: 1rem; /* Espacement entre les cartes */
+}
+  
 a{
   text-decoration:none;
 }

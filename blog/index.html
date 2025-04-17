@@ -11,10 +11,10 @@ pagination:
 {% if paginator.total_pages > 1 %}
   <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
 {% endif %}
-<div class="row align-items-start overflow-y-scroll row-isotope">
+<div class="row align-items-start">
     {% for post in paginator.posts %}
-        <div class="col-12 col-sm-6 mb-2 col-isotope">
-            <div class="card border-O">
+        <div class="col-12 col-sm-6 mb-2 masonry-item">
+            <div class="card h-100">
                 <div class="bg-info-subtle">
                     <img src="{{post.image}}" class="card-img-top img-fluid">
                 </div>
@@ -39,7 +39,7 @@ pagination:
                 </a>
             {% endif %}  
         </li>
-        <!--{% for page in (1..paginator.total_pages) %}
+        {% for page in (1..paginator.total_pages) %}
             <li class="page-item">
                 {% if page == paginator.page %}
                 <span class="current">{{ page }}</span>
@@ -50,7 +50,7 @@ pagination:
             {% endif %}
             </li>
             
-        {% endfor %}  -->
+        {% endfor %}
         <li class="page-item">
             {% if paginator.next_page %}
                 <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" class="next">
