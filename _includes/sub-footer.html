@@ -1,20 +1,15 @@
 <script src="{{ '/assets/js/menu-button.js'| relative_url }}"></script>
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
-<script src="{{ '/assets/js/isotope.pkgd.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/masonry.pkgd.min.js' | relative_url }}"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const gridElem = document.querySelector('.row');
-    if (gridElem) {
-        imagesLoaded(gridElem, function() {
-            const iso = new Isotope(gridElem, {
-                itemSelector: '.masonry-item',
-                layoutMode: 'masonry',
-                masonry: {
-                    percentPosition: true
-                }
-            });
-        });
+    var elem = document.querySelector('.row');
+    if (elem) {
+      var msnry = new Masonry(elem, {
+        itemSelector: '.masonry-item',
+        columnWidth: '.masonry-item', // ou une valeur fixe
+        percentPosition: true
+      });
     }
-});
+  });
 </script>
-<script src="{{ '/assets/js/imagesloaded.pkgd.min.js' | relative_url}}"
