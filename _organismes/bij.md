@@ -19,4 +19,4 @@ Seul ou en groupe. En Europe, au Québec, en Afrique ou ailleurs.
 
 « Faut qu’ça bouge ! » avec le BIJ !
 
-{%youtube 7VXZzpWHwS8 %}
+{% youtube 7VXZzpWHwS8 %}

@@ -10,18 +10,18 @@ module Jekyll
         if @youtube_url.empty?
           "Error: No YouTube URL provided."
         elsif @youtube_url.include?("youtu.be/")
-          video_id = @youtube_url.split('/').last
-          "<div class=\"ratio ratio-16x9\">" \
-            "<iframe src=\"https://www.youtube.com/embed/#{video_id}\" allowfullscreen frameborder=\"0\"></iframe>" \
+          youtube_id = @youtube_url.split('/').last
+          "<div class=\"ratio ratio-16x9\" style=\"width:100%\">" \
+            "<iframe style=\"width: 100%; height: 100%;\" src=\"https://www.youtube.com/embed/#{youtube_id}\" allowfullscreen frameborder=\"0\"></iframe>" \
           "</div>"
         elsif @youtube_url.include?("www.youtube.com/watch?v=")
           uri = URI.parse(@youtube_url)
           params = URI.decode_www_form(uri.query).to_h
           if params['v']
             video_id = params['v']
-            "<div class=\"ratio ratio-16x9\">" \
-              "<iframe src=\"https://www.youtube.com/embed/#{video_id}\" allowfullscreen frameborder=\"0\"></iframe>" \
-            "</div>"
+           "<div class=\"ratio ratio-16x9\" style=\"width: 100%;\">" \
+          "<iframe style=\"width: 100%; height: 100%;\" src=\"https://www.youtube.com/embed/#{@youtube_id}\" allowfullscreen frameborder=\"0\"></iframe>" \
+        "</div>"
           else
             "Error: Invalid YouTube URL."
           end
