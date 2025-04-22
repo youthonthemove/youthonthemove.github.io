@@ -7,7 +7,7 @@ permalink: /organismes/
 {% if paginator.total_pages > 1 %}
   <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
 {% endif %}
-<div class="row align-items-start">
+<div class="row align-items-start masonry-row">
     {% for organisme in site.organismes %}
         <div class="col-12 col-sm-6 mb-2 masonry-item">
             <a href="{{ organisme.url }}">
