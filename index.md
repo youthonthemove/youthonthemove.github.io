@@ -1,3 +1,3 @@
 ---
-layout: home-bstrp-fw
+layout: home
 ---
