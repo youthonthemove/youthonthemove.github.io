@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+icon: fa-solid fa-feather-pointed
 title: "Lola en Australie"
 date: 2022-02-10T14:03:18.000Z
 categories: ["temoignage","yotm","hello-world","roadtrip","australie"]

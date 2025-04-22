@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+icon: fa-solid fa-feather-pointed
 title: "Une vie en une année"
 date: 2021-05-27T08:10:32.000Z
 categories: ["brésil","immersion","temoignage","hello-world","yotm"]

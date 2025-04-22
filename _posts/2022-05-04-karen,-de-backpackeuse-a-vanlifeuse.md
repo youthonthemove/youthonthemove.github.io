@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+icon: fa-solid fa-feather-pointed
 title: "Karen, de backpackeuse à vanlifeuse"
 date: 2022-05-04T14:30:50.000Z
 categories: ["backpacker","vanlife","hello-world","yotm","temoignage"]

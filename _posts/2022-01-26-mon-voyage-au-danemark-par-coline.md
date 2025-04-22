@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+icon: fa-solid fa-feather-pointed
 title: "Mon voyage au Danemark par Coline"
 date: 2022-01-26T14:41:05.000Z
 categories: ["hello-world","workaway","solo-female-travel","yotm","temoignage"]

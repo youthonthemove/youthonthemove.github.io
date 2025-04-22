@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+icon: fa-solid fa-podcast
 title: "Anne Jeune fille au pair à Dublin et volontaire en Islande"
 date: 2025-01-31T14:19:33.000Z
 categories: ["temoignage","podcast","replay"]

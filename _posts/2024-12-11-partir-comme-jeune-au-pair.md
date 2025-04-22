@@ -1,5 +1,6 @@
 ---
 layout: post
+icon: a-solid fa-graduation-cap
 title: Jeune au pair, c'est quoi ?
 type: info
 meta_title: "Jeune au pair"
@@ -11,11 +12,6 @@ image: "/assets/images/blog/aupair.webp"
 categories: ["info", "programmes"]
 author: "Infor Jeunes Waterloo"
 tags: ["au pair"]
-medias:
-  - data: 
-    enable: false
-    name: 
-    icon: 
 draft: false
 ---
 Le **jeune au pair** vit dans une famille d'accueil pour laquelle il s'occupe des enfants et exécute des tâches ménagères. En échange de ses prestations, il est logé, nourri et perçoit de l'argent de poche.

@@ -73,6 +73,7 @@ async function processItem(item) {
        const frontmatter = `---
 layout: post
 type: story
+icon: fa-solid fa-podcast
 title: "${title.replace(/"/g, '\\"')}"
 date: ${pubDate.toISOString()}
 categories: ["temoignage","podcast","replay"]

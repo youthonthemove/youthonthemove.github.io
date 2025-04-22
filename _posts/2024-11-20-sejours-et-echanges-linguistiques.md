@@ -1,5 +1,6 @@
 ---
 layout: post
+icon: a-solid fa-graduation-cap
 title: Séjours et échanges linguistiques
 type: info
 meta_title: "Séjours et échanges linguistiques"

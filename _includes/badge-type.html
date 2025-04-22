@@ -1,0 +1,12 @@
+{% if include.badge %}
+    {% case include.badge %}
+        {% when 'story' %}
+            <span class="badge text-bg-primary rounded-pill">
+                <i class="fa-solid fa-comment"></i>
+            </span>
+        {% when 'info' %}
+            <span class="badge text-bg-primary rounded-pill">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </span>
+    {% endcase %}
+{% endif %}

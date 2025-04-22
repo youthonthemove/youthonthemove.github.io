@@ -70,6 +70,7 @@ async function processItem(item) {
     const frontmatter = `---
 layout: post
 type: story
+icon: fa-solid fa-feather-pointed
 title: "${title.replace(/"/g, '\\"')}"
 date: ${pubDate.toISOString()}
 categories: ${JSON.stringify(categories)}

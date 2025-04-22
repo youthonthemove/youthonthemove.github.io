@@ -4,13 +4,9 @@ title: Blog
 permalink: /blog/
 pagination:
   enabled: true
-  per_page: 4
-  permalink: /blog/page/:num
+  collection: posts
 ---
 <h1 class="page-heading">{{page.title}}</h1>
-{% if paginator.total_pages > 1 %}
-  <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
-{% endif %}
 <div class="row align-items-start masonry-row">
     {% for post in paginator.posts %}
         <div class="col-12 col-sm-6 mb-2 masonry-item">
@@ -31,33 +27,34 @@ pagination:
 </div>
 {% if paginator.total_pages > 1 %}
     <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-end">
-        <li class="page-item disabled">
+        <ul class="list-group list-group-horizontal">
             {% if paginator.previous_page %}
-                <a  class="page-link" href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-                    <i class="fa-solid fa-arrow-left">&nbsp; Précédent</i>
-                </a>
-            {% endif %}  
-        </li>
-        {% for page in (1..paginator.total_pages) %}
-            <li class="page-item">
-                {% if page == paginator.page %}
-                <span class="current">{{ page }}</span>
-            {% elsif page == 1 %}
-                <a  class="page-link" href="{{ '/blog/' | relative_url }}">{{ page }}</a>
-            {% else %}
-                <a class="page-link" href="{{ '/blog/page' | append: page | append: '/' | relative_url }}">{{ page }}</a>
-            {% endif %}
-            </li>
+                <li class="list-group-item">
+                    <a class="page-link" href="{{ paginator.previous_page_path }}">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </a>
+                </li>
+            {%  endif %}
+           
+                {% for page in (1..paginator.total_pages) %}
+                    <li class="list-group-item">
+                        {% if page == paginator.page %}
+                        <span class="current disabled">{{ page }}</span>
+                        {% elsif page == 1 %}
+                            <a  class="page-link" href="{{ '/blog/' | relative_url }}">{{ page }}</a>
+                        {% else %}
+                            <a class="page-link" href="{{ '/blog/page/' | append: page | append: '/' | relative_url }}">{{ page }}</a>
+                        {% endif %}
+                    </li>
+                {% endfor %}
             
-        {% endfor %}
-        <li class="page-item">
             {% if paginator.next_page %}
-                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" class="next">
-                    <i class="fa-solid fa-arow-right">&nbsp; Suivant</i>
-                </a>
+                <li class="list-group-item">
+                    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
+                        <i class="fa-solid fa-arrow-right"></i>
+                      </a>
+                </li>
             {% endif %}
-        </li>
         </ul>
-  </nav>
+    </nav>
 {% endif %}

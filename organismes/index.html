@@ -1,53 +1,69 @@
 ---
 layout: base
 title: Organismes
-permalink: /organismes/
+pagination:
+  enabled: true
+  collection: 'organismes' 
+  per_page: 5
+  sort_field: 'title' 
+  sort_reverse: false
 ---
 <h1 class="page-heading">{{page.title}}</h1>
-{% if paginator.total_pages > 1 %}
-  <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
-{% endif %}
 <ul class="list-group list-group-flush card rounded">
-    {% for organisme in site.organismes %}
-        <li class="list-group-item">
+    {% for organisme in paginator.posts %}
+        <li class="list-group-item d-flex align-items-center">
             <h6 class="heading p-2">
                 <a href="{{ organisme.url }}">
                     {{ organisme.title }}
                 </a>
+               {% include badge-type.html badge=organisme.type enclosure=organisme.enclosure %}
             </h6>
-            
         </li>
     {% endfor %}
 </ul>
 {% if paginator.total_pages > 1 %}
-    <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-end">
-        <li class="page-item disabled">
-            {% if paginator.previous_page %}
-                <a  class="page-link" href="{{ paginator.previous_page_path | relative_url }}" class="previous">
-                    <i class="fa-solid fa-arrow-left"></i>
-                </a>
-            {% endif %}  
-        </li>
-        {% for page in (1..paginator.total_pages) %}
-            <li class="page-item">
-                {% if page == paginator.page %}
-                <span class="current">{{ page }}</span>
-            {% elsif page == 1 %}
-                <a  class="page-link" href="{{ '/blog/' | relative_url }}">{{ page }}</a>
-            {% else %}
-                <a class="page-link" href="{{ '/blog/page' | append: page | append: '/' | relative_url }}">{{ page }}</a>
-            {% endif %}
-            </li>
-            
-        {% endfor %} 
-        <li class="page-item">
-            {% if paginator.next_page %}
-                <a class="page-link" href="{{ paginator.next_page_path | relative_url }}" class="next">
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
-            {% endif %}
-        </li>
-        </ul>
-  </nav>
+    <div class="d-flex justify-content-end mt-4">
+        <nav aria-label="Page navigation example">
+            <ul class="list-group list-group-horizontal-sm">
+                <li class="list-group-item flex-fill bg-light">
+                    <a class="page-link" href="{{ paginator.first_page_path }}">
+                        <i class="fa-solid fa-angles-left"></i>
+                    </a>
+                </li>
+                {% if paginator.previous_page %}
+                
+                    <li class="list-group-item flex-fill">
+                        <a class="page-link" href="{{ paginator.previous_page_path }}">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </li>
+                {%  endif %}
+                    <!--{% for page in (1..paginator.total_pages) %}
+                        <li class="list-group-item flex-fill">
+                            {% if page == paginator.page %}
+                            <span class="current disabled">{{ page }}</span>
+                            {% elsif page == 1 %}
+                                <a  class="page-link" href="{{ '/organismes/' | relative_url }}">{{ page }}</a>
+                            {% else %}
+                                <a class="page-link" href="{{ '/organismes/page/' | append: page | append: '/' | relative_url }}">{{ page }}</a>
+                            {% endif %}
+                        </li>
+                    {% endfor %} -->
+                
+                {% if paginator.next_page %}
+                    <li class="list-group-item flex-fill">
+                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
+                            <i class="fa-solid fa-chevron-right"></i>
+                          </a>
+                    </li>
+                    <li class="list-group-item flex-fill bg-light">
+                        <a class="page-link" href="{{ paginator.last_page_path }}">
+                            <i class="fa-solid fa-angles-right"></i>
+                        </a>
+                    </li>
+                {% endif %}
+
+            </ul>
+        </nav>
+    </div>
 {% endif %}

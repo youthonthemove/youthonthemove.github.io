@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+icon: fa-solid fa-feather-pointed
 title: "Rendre son voyage plus humain"
 date: 2022-02-10T14:59:16.000Z
 categories: ["tour-du-monde","backpacking","temoignage","hello-world","yotm"]
