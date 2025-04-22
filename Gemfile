@@ -24,6 +24,8 @@ source 'https://rubygems.org'
 gem 'feedjira'
 gem 'kramdown'
 gem 'nokogiri'
+gem 'open-uri', '~> 0.5.0'
+gem 'rss', '~> 0.3.1'
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
