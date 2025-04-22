@@ -7,13 +7,15 @@ permalink: /organismes/
 {% if paginator.total_pages > 1 %}
   <p class="mb-2">Page {{ paginator.page }} sur {{ paginator.total_pages }}</p>
 {% endif %}
-<ul class="list-group list-group-flush">
+<ul class="list-group list-group-flush card rounded">
     {% for organisme in site.organismes %}
-        <li>
-            <a href="{{ organisme.url }}">
-                    <h5 class="heading p-2">{{ organisme.title }}</h5>
-                 </div>
-            </a>
+        <li class="list-group-item">
+            <h6 class="heading p-2">
+                <a href="{{ organisme.url }}">
+                    {{ organisme.title }}
+                </a>
+            </h6>
+            
         </li>
     {% endfor %}
 </ul>

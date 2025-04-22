@@ -1,5 +1,5 @@
 ---
 layout: contact
-tite: Nous contacter
+title: Nous contacter
 permalink: /contact/
 ---
