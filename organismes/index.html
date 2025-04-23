@@ -1,69 +1,12 @@
 ---
-layout: base
+layout: pagination
 title: Organismes
 pagination:
   enabled: true
+  per_page: 3
   collection: 'organismes' 
-  per_page: 5
+  per_page: 2
   sort_field: 'title' 
   sort_reverse: false
+  permalink: '/organismes/page/:num/'
 ---
-<h1 class="page-heading">{{page.title}}</h1>
-<ul class="list-group list-group-flush card rounded">
-    {% for organisme in paginator.posts %}
-        <li class="list-group-item d-flex align-items-center">
-            <h6 class="heading p-2">
-                <a href="{{ organisme.url }}">
-                    {{ organisme.title }}
-                </a>
-               {% include badge-type.html badge=organisme.type icon=organisme.icon %}
-            </h6>
-        </li>
-    {% endfor %}
-</ul>
-{% if paginator.total_pages > 1 %}
-    <div class="d-flex justify-content-end mt-4">
-        <nav aria-label="Page navigation example">
-            <ul class="list-group list-group-horizontal-sm">
-                <li class="list-group-item flex-fill bg-light">
-                    <a class="page-link" href="{{ paginator.first_page_path }}">
-                        <i class="fa-solid fa-angles-left"></i>
-                    </a>
-                </li>
-                {% if paginator.previous_page %}
-                
-                    <li class="list-group-item flex-fill">
-                        <a class="page-link" href="{{ paginator.previous_page_path }}">
-                            <i class="fa-solid fa-chevron-left"></i>
-                        </a>
-                    </li>
-                {%  endif %}
-                    <!--{% for page in (1..paginator.total_pages) %}
-                        <li class="list-group-item flex-fill">
-                            {% if page == paginator.page %}
-                            <span class="current disabled">{{ page }}</span>
-                            {% elsif page == 1 %}
-                                <a  class="page-link" href="{{ '/organismes/' | relative_url }}">{{ page }}</a>
-                            {% else %}
-                                <a class="page-link" href="{{ '/organismes/page/' | append: page | append: '/' | relative_url }}">{{ page }}</a>
-                            {% endif %}
-                        </li>
-                    {% endfor %} -->
-                
-                {% if paginator.next_page %}
-                    <li class="list-group-item flex-fill">
-                        <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
-                            <i class="fa-solid fa-chevron-right"></i>
-                          </a>
-                    </li>
-                    <li class="list-group-item flex-fill bg-light">
-                        <a class="page-link" href="{{ paginator.last_page_path }}">
-                            <i class="fa-solid fa-angles-right"></i>
-                        </a>
-                    </li>
-                {% endif %}
-
-            </ul>
-        </nav>
-    </div>
-{% endif %}
