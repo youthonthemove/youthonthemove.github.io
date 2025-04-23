@@ -16,7 +16,7 @@ pagination:
                 <a href="{{ organisme.url }}">
                     {{ organisme.title }}
                 </a>
-               {% include badge-type.html badge=organisme.type enclosure=organisme.enclosure %}
+               {% include badge-type.html badge=organisme.type icon=organisme.icon %}
             </h6>
         </li>
     {% endfor %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-icon: a-solid fa-graduation-cap
+icon: fa-solid fa-graduation-cap
 title: Jeune au pair, c'est quoi ?
 type: info
 meta_title: "Jeune au pair"

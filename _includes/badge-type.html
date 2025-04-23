@@ -2,11 +2,11 @@
     {% case include.badge %}
         {% when 'story' %}
             <span class="badge text-bg-primary rounded-pill">
-                <i class="fa-solid fa-comment"></i>
+                <i class="fa-solid fa-comment"></i>&nbsp; <i class="{{ include.icon }}"></i>
             </span>
-        {% when 'info' %}
+        {% else %}
             <span class="badge text-bg-primary rounded-pill">
-                <i class="fa-solid fa-graduation-cap"></i>
+                <i class="{{ include.icon }}"></i>
             </span>
     {% endcase %}
 {% endif %}
