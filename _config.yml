@@ -26,23 +26,18 @@ pagination:
   limit: 0                  # Optional: Limit the total number of pagination pages to generate (0 for all)
   sort_field: 'date'        # Field to sort items by (default: date)
   sort_reverse: true        # Reverse the sort order (default: false)
-  collections:
-    articles:
-      permalink: '/articles/page/:num/'
-      per_page: 5
-      sort_field: 'title'
-      sort_reverse: false
-    organismes:
-      permalink: '/organismes/page/:num/'
-      per_page: 5
-      sort_field: 'nom'
-      sort_reverse: false
 
 #Collections
 collections:
   articles:
     output: true
     permalink: /articles/:path
+  histoires:
+    output: true
+    permalink: /histoires/:path
+  podcasts: 
+    output: true
+    permalink: /podcasts/:path
   organismes:
     output: true
     permalink: /organismes/:path
@@ -50,9 +45,11 @@ collections:
 # Build settings
 permalink: /:title/
 theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

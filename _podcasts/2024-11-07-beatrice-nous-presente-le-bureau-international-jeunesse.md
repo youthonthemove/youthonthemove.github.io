@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: podcast
 icon: fa-solid fa-podcast
 title: "Béatrice nous présente le Bureau International Jeunesse"
 date: 2024-11-07T10:48:10.000Z

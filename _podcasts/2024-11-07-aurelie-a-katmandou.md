@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: podcast
 icon: fa-solid fa-podcast
 title: "Aurélie à Katmandou"
 date: 2024-11-07T11:01:23.000Z

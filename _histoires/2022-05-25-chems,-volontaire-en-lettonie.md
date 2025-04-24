@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "Chems, volontaire en Lettonie"
 date: 2022-05-25T11:58:31.000Z

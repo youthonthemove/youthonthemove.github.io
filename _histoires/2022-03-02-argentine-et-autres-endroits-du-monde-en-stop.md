@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "Argentine (et autres endroits du monde) en stop."
 date: 2022-03-02T10:14:58.000Z

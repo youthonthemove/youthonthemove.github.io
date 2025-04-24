@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "D’Israël en Inde, le début d’un long voyage… par Lola"
 date: 2022-01-20T13:27:24.000Z

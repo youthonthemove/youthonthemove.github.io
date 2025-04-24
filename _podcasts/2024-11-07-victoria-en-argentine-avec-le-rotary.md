@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: podcast
 icon: fa-solid fa-podcast
 title: "Victoria en Argentine avec le Rotary"
 date: 2024-11-07T11:10:26.000Z

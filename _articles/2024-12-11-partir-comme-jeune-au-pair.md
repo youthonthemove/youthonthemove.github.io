@@ -8,7 +8,7 @@ description: "Infos de base sur le jeune au pair"
 slug: jeune-au-pair
 date: 2024-12-11
 lastmod: 
-image: "/assets/images/blog/aupair.webp"
+image: "/assets/images/blog/au-pair.webp"
 categories: ["info", "programmes"]
 author: "Infor Jeunes Waterloo"
 tags: ["au pair"]

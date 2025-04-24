@@ -8,7 +8,7 @@ const slugify = require('slugify');
 const { format } = require('date-fns');
 
 const FEED_URL = 'https://anchor.fm/s/f48553a0/podcast/rss';
-const POSTS_DIR = '_posts';
+const POSTS_DIR = '_podcasts';
 
 const turndownService = new TurndownService();
 const xmlParser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
@@ -73,6 +73,7 @@ async function processItem(item) {
        const frontmatter = `---
 layout: post
 type: story
+ss-type: podcast
 icon: fa-solid fa-podcast
 title: "${title.replace(/"/g, '\\"')}"
 date: ${pubDate.toISOString()}

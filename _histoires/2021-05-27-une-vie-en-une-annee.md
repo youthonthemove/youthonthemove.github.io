@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "Une vie en une année"
 date: 2021-05-27T08:10:32.000Z

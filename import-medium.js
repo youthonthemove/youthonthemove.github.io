@@ -8,7 +8,7 @@ const slugify = require('slugify');
 const { format } = require('date-fns');
 
 const FEED_URL = 'https://medium.com/feed/yotm/tagged/temoignages';
-const POSTS_DIR = '_posts';
+const POSTS_DIR = '_histoires';
 
 const turndownService = new TurndownService();
 const xmlParser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: "@_" });
@@ -70,6 +70,7 @@ async function processItem(item) {
     const frontmatter = `---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "${title.replace(/"/g, '\\"')}"
 date: ${pubDate.toISOString()}

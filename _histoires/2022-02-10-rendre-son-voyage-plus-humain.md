@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "Rendre son voyage plus humain"
 date: 2022-02-10T14:59:16.000Z

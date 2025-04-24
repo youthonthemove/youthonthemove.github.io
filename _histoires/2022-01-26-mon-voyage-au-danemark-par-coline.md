@@ -1,6 +1,7 @@
 ---
 layout: post
 type: story
+ss-type: histoire
 icon: fa-solid fa-feather-pointed
 title: "Mon voyage au Danemark par Coline"
 date: 2022-01-26T14:41:05.000Z

@@ -7,7 +7,7 @@ meta_title: "Séjours et échanges linguistiques"
 description: "Informations de base sur les séjours et échanges linguistiques"
 slug: sejours-linguistiques
 date: 2024-11-20
-image: "/assets/images/blog/echanges-linguistiques.webp"
+image: "/assets/images/blog/sejours.webp"
 categories: ["info", "programmes"]
 author: "Infor Jeunes Waterloo"
 tags: ["sejours linguistiques", "echanges linguistiques"]
