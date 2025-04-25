@@ -1,5 +1,5 @@
-{% if include.pagination.total_pages > 1 %}
-    <div class="d-flex justify-content-end mt-4">
+    {% assign paginator=include.pagination %}
+    <div class="d-flex justify-content-end mt mb-4">
         <nav aria-label="Page navigation example">
             <ul class="list-group list-group-horizontal-sm">
                 <li class="list-group-item flex-fill bg-light">
@@ -31,4 +31,3 @@
             </ul>
         </nav>
     </div>
-{% endif %}
