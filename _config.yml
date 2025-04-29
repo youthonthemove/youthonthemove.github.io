@@ -31,16 +31,19 @@ pagination:
 collections:
   articles:
     output: true
-    permalink: /articles/:path
+    permalink: /articles/:title
   histoires:
     output: true
-    permalink: /histoires/:path
+    permalink: /histoires/:title
   podcasts: 
     output: true
-    permalink: /podcasts/:path
+    permalink: /podcasts/:title
   organismes:
     output: true
-    permalink: /organismes/:path
+    permalink: /organismes/:title
+  ressources:
+    output: true
+    permalink: /pages/:title
 
 # Build settings
 permalink: /:title/
