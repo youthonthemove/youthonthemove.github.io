@@ -30,10 +30,8 @@
             <div class="col-12 col-sm-6">
                 <div class="row">
                     {% if include.ressources %}
-                    {% assign items=include.ressources %}
-                        <div class="container">
-                            <h2 class="display">Ressources&nbsp;<i class="fa-solid fa-cogs"></i></h2>
-                        </div>
+                        {% assign items=include.ressources %}
+                        {% include header-title.html class='display' title='Ressources' icon='fa-solid fa-cogs' %}
                             <div class="list-group mt-2">
                                 {% for post in items %}
                                     <div class="list-group-item">
@@ -47,18 +45,44 @@
                                     </div> 
                                 {% endfor %}
                             </div>
-                </div>
                     {% endif %}
-                    <div class="row">
-
-                    </div>
+                </div>    
+            </div>
+            <div class=" col-12 col-sm-6">
+                <div class="row">
+                    {% if include.pages %}
+                        {% assign items=include.pages %}
+                        {% include header-title.html title="Pages" class='display' icon='fa-solid fa-file-lines' %}
+                        <ul class="list-group list-group-flush">
+                            {% for post in items %}
+                                <li class="list-group-item">
+                                    <div class="float-start">
+                                        {% if post.description %}
+                                            <div class="d-flex w-100 justify-content-between mb-2 bg-secondary-subtle rounded">
+                                                <h5 class="heading mb-1 p-2">{{post.title}}</h5>
+                                            </div>
+                                            {{post.description | markdownify}}
+                                            <div class="d-flex w-100 justify-content-end">
+                                                {% include button.html url=post.url class='btn-light' icon='fa-solid fa-arrow-right' %}
+                                            </div>
+                                        {% else %}
+                                            <div class="float-start">
+                                                <h5 class="heading">{{post.title}}</h5>
+                                            </div>
+                                            {% include button.html class='btn-light float-end' url=post.url icon='fa-solid fa-arrow-right' %}
+                                        {% endif %}
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %} 
                 </div>
             </div>
         </div>
     </div>
-<div class="container mt-4">
-    {% if include.stories %}
-    {% assign items=include.stories | sort: 'date' | reverse | slice: 0,3 %}
+    <div class="container mt-4">
+    {% if include.histoires %}
+    {% assign items=include.histoires | sort: 'date' | reverse | slice: 0,3 %}
     <div class="row">
         <div class="col-12 col-sm-6">
             <div class="container">
@@ -93,8 +117,8 @@
             </div>
         </div>
     {% endif %}
-        {% if include.replays %}
-        {% assign items=include.replays | sort: 'date' | reverse | slice: 0,3 %}
+        {% if include.podcasts %}
+        {% assign items=include.podcasts | sort: 'date' | reverse | slice: 0,3 %}
         <div class="col-12 col-sm-6">
             <div class="container">
                 <h2 class="display">Podcasts&nbsp;<i class="fa-solid fa-podcast"></i></h2>

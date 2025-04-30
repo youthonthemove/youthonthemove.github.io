@@ -43,6 +43,9 @@ collections:
     permalink: /organismes/:title
   ressources:
     output: true
+    permalink: /ressources/:title
+  pages:
+    output: true
     permalink: /pages/:title
   events:
     output: true

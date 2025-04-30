@@ -8,7 +8,13 @@ title: Collections
             <h1 class="page-heading mt-4">{{ page.title }}</h1>
         </div>
         
-        {% include collection.html ressources=site.ressources articles=site.articles histoires=site.histoires podcasts=site.podcasts %}
+        {% include collection.html 
+            ressources=site.ressources 
+            articles=site.articles 
+            histoires=site.histoires 
+            podcasts=site.podcasts 
+            pages=site.pages
+        %}
         
     </div>
 </div>
