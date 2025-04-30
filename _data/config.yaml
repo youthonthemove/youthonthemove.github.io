@@ -1,0 +1,24 @@
+#Images
+image:
+  fluid: "img-fluid"
+  card: "card-img-top"
+#Buttons
+button:
+  light: "btn-light"
+  dark: "btn-dark"
+  outline:
+    light: "btn-outline-light"
+    dark: "btn-outline-dark"
+#fa
+arrow-right: "fa-solid fa-arrow-right"
+arrow-left: "fa-solide fa-arrow-left"
+share: "fa-solid fa-share-nodes"
+cogs: "fa-solid fa-cogs"
+podcast: "fa-solid fa-podcast"
+feather: "fa-solid fa-feather-pointed"
+student: "fa-solid fa-graduation-cap"
+#div
+d-flex:
+  left: "justify-content-end"
+  right: "justify-content-start"
+  center: "justify-content-center"

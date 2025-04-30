@@ -1,7 +1,27 @@
-{% assign include.item=post %}
-<li class="list-group-item">                     
-    <div class="float-start">{{ post.title }}&nbsp;</div>
-    <a class="btn btn-light float-end" href="{{ post.url | relative_url }}">
-        <i class="fa-solid fa-arrow-right"></i>
-    </a>
-</li>
+{% assign include.post=post %}
+{% if include.linkto %}
+    {% assign linkTo=linkto %}
+{% endif %}
+{% case linkTo %}
+    {% when 'button'}
+        <li class="list-group-item">                     
+            <div class="float-start">
+                {{ post.title }}&nbsp;
+            </div>
+            {% include button.html class='btn-light float-end' url=post.url icon='fa-solid fa-arrow-right' %}
+        </li>
+    {% when 'link' %}
+        <li class="list-group-item">                     
+            <div class="float-start">
+                <a href="{{post.url}}">
+                    {{ post.title }}
+                </a>
+            </div>
+        </li>
+    {% else %}
+    <li class="list-group-item">                     
+        <div class="float-start">
+            {{ post.title }}
+        </div>
+    </li>
+{% endcase %}

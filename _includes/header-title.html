@@ -1,0 +1,17 @@
+{% if include.title %}
+    {% assign title=include.title %}
+{% endif %}
+{% if include.hclass %}
+    {% assign h-class=hclass %}
+{% endif %}
+{% if include.class %}
+    {% assign class=include.class %}
+{% endif %}
+{% if include.icon %}
+    {% assign icon=include.icon %}
+{% endif %}
+<div class="{{h-class}}">
+    <h2 class="{{class}}">
+        {{ title }}&nbsp;<i class="{{icon}}"></i>
+    </h2>
+</div>

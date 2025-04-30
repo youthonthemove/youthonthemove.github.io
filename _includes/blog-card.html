@@ -1,0 +1,20 @@
+
+{% assign linkTo=include.linkto %}
+{% assign image= include.image %}
+{% assign title= include.title %}
+{% assign url=include.link %}
+        <div class="card h-100">
+            {% if image %}
+                <img src="{{image}}" class="img-card-top img-fluid">
+            {% endif %}
+            <div class="card-body">
+                {% case linkTo %}
+                    {% when 'link' %}
+                    {% when 'bouton' %}
+                        <h5 class="heading">{{title }}</h5>
+                        <div class="d-flex w-100 justify-content-end">
+                            {% include button.html url=url class='btn-light' icon='fa-solid fa-arrow-right' %}
+                        </div>
+                {% endcase %}
+            </div>
+        </div>

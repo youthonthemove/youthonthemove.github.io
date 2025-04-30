@@ -1,0 +1,28 @@
+    {% assign title=include.post %}
+    {% assign image=include.img %}
+    {% assign linkTo=include.linkto %}
+    {% assign url=include.link %}
+    {% assign title=include.post %}
+    {% assign image=include.img %}
+    {% assign linkTo=include.linkto %}
+    {% assign url=include.link %}
+    <div class="list-group-item">
+        {% if image %}
+            <img src="{{image}}" class="img-fluid card-img-top rounded-top">
+        {% endif %}
+        <h5>
+            {% case linkTo %}
+                {% when 'link' %}
+                    <a href="{{url| url_relative}}">
+                        {{title}}
+                    </a>
+                {% when 'button' %}
+                    {{title}}
+            {% endcase %}
+        </h5>
+        {% if linkTo=='button' %}
+            <div class="d-flex w-100 justify-content-end">
+                {% include button.html class='btn-light' icon='fa-solid fa-arrow-right' url='/articles/' text='Tous les articles' %}
+            </div>
+        {% endif %}
+    </div>

@@ -44,6 +44,12 @@ collections:
   ressources:
     output: true
     permalink: /pages/:title
+  events:
+    output: true
+    permalink: /events/:title
+  formulaires:
+    output: true
+    permalink: /formulaires/:tite
 
 # Build settings
 permalink: /:title/
